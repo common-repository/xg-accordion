@@ -1,0 +1,2009 @@
+/*----------------------------
+    Accordion Style
+----------------------------*/
+/*-----------------------
+* Accordion css
+-----------------------*/
+.xga-accordion-wrapper-01 .accordion-wrapper {
+    background: #f6fcfd;
+    padding: 100px 0;
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f106";
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-heading a {
+    background-color: #e7eefe;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family: inherit;
+    position: relative;
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-heading a.open {
+    background-color: transparent;
+    margin-bottom: 0px;
+    color: #197beb;
+    -webkit-box-shadow: 0px -6px 11px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -6px 11px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    -webkit-box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 40px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    padding-top: 0;
+}
+
+.xga-accordion-wrapper-01 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*-----------------------
+* Accordion css
+-----------------------*/
+
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #197beb;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+}
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f106";
+}
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-heading a {
+    background-color: #FFFFFF;
+    color: #2a384c;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-body .xga-acc-content p:last-child {
+    margin-bottom: 0;
+}
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    padding-bottom: 0;
+}
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 16px;
+    padding-left: 60px;
+    /*padding-bottom: 0;*/
+}
+
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-02 {
+    position: relative;
+    z-index: 0;
+}
+
+.xga-accordion-wrapper-02:after {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    height: 95%;
+    width: 100%;
+    border-left: 2px dashed #197beb;
+    content: '';
+    z-index: -1;
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-body.show,
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-body.show,
+.xga-accordion-wrapper-02 .xga-accrodion .xga-accordion-body.show {
+    margin-bottom: 20px;
+}
+
+/*-----------------------
+* Accordion css
+-----------------------*/
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #197beb;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f106";
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-heading a {
+    background-color: #FFFFFF;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    padding-right: 60px;
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+.xga-accordion-wrapper-03 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    padding-bottom: 0;
+}
+
+/*-----------------------
+* Accordion css
+-----------------------*/
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #197beb;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-heading a {
+    background-color: #FFFFFF;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    padding-right: 60px;
+}
+
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.xga-accordion-wrapper-04 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+/*-----------------------
+* Accordion css
+-----------------------*/
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #197beb;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-heading a {
+    background-color: #FFFFFF;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+    border-radius: 30px;
+}
+
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-body .xga-acc-content.show {
+    margin-bottom: 20px;
+}
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-body .xga-acc-content p:last-child{
+    margin-bottom: 10px;
+}
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 16px;
+    padding-left: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.xga-accordion-wrapper-05 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 6
+---------------------------*/
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #197beb;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-heading a {
+    background-color: #FFFFFF;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-left: 60px;
+}
+
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-body .xga-acc-content p:last-child{
+    margin-bottom: 10px;
+}
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 16px;
+    padding-left: 60px;
+    background-color: #fff;
+
+}
+
+.xga-accordion-wrapper-06 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 7
+---------------------------*/
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #197beb;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-left: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    /*box-shadow: 0px -6px 11px rgba(0, 0, 0, 0.1);*/
+    padding-bottom: 0;
+}
+
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    border-top: 0;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+.xga-accordion-wrapper-07 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 8
+---------------------------*/
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #197beb;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: none;
+}
+
+.xga-accordion-wrapper-08 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 9
+---------------------------*/
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f00d";
+}
+
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    border-left: 4px solid #197beb;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border-left: 4px solid #197beb;
+    padding-bottom: 5px;
+    padding-top: 0;
+}
+
+.xga-accordion-wrapper-09 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 10
+---------------------------*/
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f00d";
+}
+
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    border: 1px solid #197beb;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #197beb;
+    padding-bottom: 5px;
+    padding-top: 0;
+    border-top: none;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-10 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 13
+---------------------------*/
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f00d";
+}
+
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #e5e5e5;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-top: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-11 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 14
+---------------------------*/
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #197beb;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion:first-child .xga-accordion-heading a {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.xga-accordion-wrapper-12 .xga-accrodion:last-child .xga-accordion-heading a {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion:last-child .xga-accordion-heading a.open {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: none;
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f00d";
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #515151;
+    font-size: 18px;
+    line-height: 26px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-top: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-12 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 15
+---------------------------*/
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f106";
+}
+
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    background-color: #197beb;
+    border-bottom: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-top: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.xga-accordion-wrapper-13 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/*---------------------------
+    Accordion 16
+---------------------------*/
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f106";
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-right: 60px;
+    background-color: #17223F;
+    border-bottom: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #17223F;
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-body .xga-acc-content p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 5px;
+    background-color: #17223F;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 0;
+}
+
+.xga-accordion-wrapper-14 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/*---------------------------
+    Accordion 17
+---------------------------*/
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 60px;
+    height: 100%;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f00d";
+}
+
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-left: 80px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    padding-bottom: 5px;
+    padding-top: 0;
+    padding-left: 80px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-15 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 18
+---------------------------*/
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: -20px;
+    top: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #197beb;
+    border-radius: 3px;
+}
+.xga-accordion-wrapper-16 .xga-accrodion  {
+    margin-left: 20px;
+}
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-heading a {
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 600;
+    font-family:inherit;
+    position: relative;
+    padding-left: 30px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    padding-bottom: 5px;
+    padding-top: 0;
+    padding-left: 30px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-16 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    margin-bottom: 20px;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+/*---------------------------
+    Accordion 19
+---------------------------*/
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: -50px;
+    top: -1px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion {
+    margin-left: 50px;
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f00d";
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-heading a {
+    padding: 11px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-left: 30px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    padding-bottom: 5px;
+    padding-top: 0;
+    padding-left: 30px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-17 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    margin-bottom: 20px;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+/*---------------------------
+    Accordion 20
+---------------------------*/
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-heading a:before {
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    content: '';
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: none;
+    border-top: none;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: -70px;
+    top: -1px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+    color: #197beb;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion {
+    margin-left: 70px;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-heading a {
+    padding: 11px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #2a384c;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-left: 30px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #197beb;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    padding-bottom: 5px;
+    padding-top: 0;
+    padding-left: 30px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-18 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 21
+---------------------------*/
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-heading a:before {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    content: '';
+    border-top: 24px solid transparent;
+    border-left: 25px solid #fff;
+    border-bottom: 25px solid transparent;
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-heading a {
+    padding: 11px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-left: 40px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    padding-bottom: 5px;
+    padding-left: 40px;
+    border-top: none;
+    background-color: #fff;
+}
+
+.xga-accordion-wrapper-19 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 22
+---------------------------*/
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: -2px;
+    top: -1px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    -webkit-box-shadow: 0 0 15px 0 rgba(40, 40, 40, 0.2);
+    box-shadow: 0 0 15px 0 rgba(40, 40, 40, 0.2);
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+    background-color: #fff;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-heading a {
+    padding: 11px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #515151;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-left: 65px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    border-radius: 30px;
+}
+
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    border-top: none;
+}
+
+.xga-accordion-wrapper-20 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+/*---------------------------
+    Accordion 23
+---------------------------*/
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: -2px;
+    top: -1px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+    -webkit-box-shadow: 0 0 15px 0 rgba(40, 40, 40, 0.2);
+    box-shadow: 0 0 15px 0 rgba(40, 40, 40, 0.2);
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+    background-color: #fff;
+    color: #197beb;
+}
+
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-heading a {
+    padding: 11px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #515151;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-left: 65px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+}
+
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.1);
+}
+
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(40, 40, 40, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    border-top: none;
+}
+
+.xga-accordion-wrapper-21 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Accordion 24
+---------------------------*/
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-heading a:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f067";
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    color: #515151;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-heading a.open:after {
+    content: "\f068";
+    color: #fff;
+    background-color: #197beb;
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-heading a {
+    padding: 11px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #515151;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    font-weight: 500;
+    font-family:inherit;
+    position: relative;
+    padding-left: 65px;
+    border: 1px solid rgba(40, 40, 40, 0.08);
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-heading a.open {
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #197beb;
+    border-top: 3px solid #17221f;
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-body .xga-acc-content p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-body .xga-acc-content {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    border-top: none;
+    background-color: #17223f;
+    border-bottom: 3px solid #197beb;
+}
+
+.xga-accordion-wrapper-22 .xga-accrodion .xga-accordion-body.show {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: max-height .3s ease-in;
+    -o-transition: max-height .3s ease-in;
+    transition: max-height .3s ease-in;
+    margin-bottom: 20px;
+}
